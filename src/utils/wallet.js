@@ -52,7 +52,7 @@ const checkIfWalletConnected = async (wallet) => {
 };
 
 export const changeName = async (name) => {
-  const amount = 4;
+  const amount = 2;
   // const wallet = new BeaconWallet(options);
   const response = await checkIfWalletConnected(wallet);
 
