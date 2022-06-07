@@ -20,7 +20,7 @@ export default function ChangeName(props) {
         }}
         className="bg-red-500 px-6 py-2 rounded-sm text-xs font-semibold uppercase text-white cursor-pointer"
       >
-        Set Name
+        MINT
       </button>
     </div>
   );
