@@ -61,7 +61,7 @@ export const changeName = async (name) => {
     const tezos = new TezosToolkit(rpcURL);
     tezos.setWalletProvider(wallet);
     const contract = await tezos.wallet.at(config.contractAddress);
-    const operation = await contract.methods.mint(1).transfer({ to: KT1XVYQNXgqfYgszhDL3rCjy4tgPF3q8D9qu, amount: amount });
+    const operation = await contract.methods.mint(1).send({amount: amount, mutez: false});
     const result = await operation.confirmation();
     console.log(result);
   }
