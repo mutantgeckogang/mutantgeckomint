@@ -6,14 +6,6 @@ export default function ChangeName(props) {
 
   return (
     <div className="flex">
-      <input
-        type="text"
-        name="name"
-        onChange={(e) => {
-          setName(e.target.value);
-        }}
-        value={name}
-      />
       <button
         onClick={() => {
           changeName(name);
