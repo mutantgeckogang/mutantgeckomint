@@ -60,7 +60,7 @@ export default function Navbar() {
         </a>
         <a
           href="#!"
-          className="cursor-pointer text-gray-300 px-4 py-2 text-sm font-semibold rounded-sm hover:bg-gray-700 hover:text-gray-200"
+          className="cursor-pointer text-gray-300 px-4 py-2 text-sm font-semibold rounded-sm"
         >
           Provenance CID:
         </a>
