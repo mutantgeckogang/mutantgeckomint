@@ -13,15 +13,15 @@ const App = ()extends Component {
         backgroundRepeat: 'no-repeat',
     };
   return (
-    <div className="bg-black min-h-screen">
+    <div className="bg-black min-h-screen" style={myStyle} >
       <Navbar />
-      <div className="container pt-10 mx-auto" styles={{ backgroundImage:`url(${bg1})` }}>
-        <div className="flex justify-center">
-          <h1 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-blue-300 to-red-400">
-            Hello, Tezos!
+      <div className="container pt-10 mx-auto" style={myStyle} >
+        <div className="flex justify-center" style={myStyle} >
+          <h1 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-red-300 to-green-400">
+            Hello, Mutant Gecko Gang!
           </h1>
         </div>
-        <div className="mt-20 flex justify-center">
+        <div className="mt-20 flex justify-center" style={myStyle} >
           <ChangeName />
         </div>
       </div>
