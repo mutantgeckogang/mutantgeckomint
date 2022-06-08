@@ -1,17 +1,7 @@
 import Navbar from "./components/Navbar";
 import ChangeName from "./components/ChangeName";
 
-const App = ()extends Component {
-  render() {
-    const myStyle={
-        backgroundImage: 
- "url('/mint.png')",
-        height:'100vh',
-        marginTop:'-70px',
-        fontSize:'50px',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-    };
+const App = () => {
   return (
     <div className="bg-black min-h-screen" style={myStyle} >
       <Navbar />
