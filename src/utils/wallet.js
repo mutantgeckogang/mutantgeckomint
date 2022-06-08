@@ -2,13 +2,13 @@ import { TezosToolkit } from "@taquito/taquito";
 import { BeaconWallet } from "@taquito/beacon-wallet";
 import config from "../config";
 
-const preferredNetwork = "ithacanet";
+const preferredNetwork = "mainnet";
 const options = {
   name: "NFT",
   iconUrl: "https://tezostaquito.io/img/favicon.png",
   preferredNetwork: preferredNetwork,
 };
-const rpcURL = "https://ithacanet.ecadinfra.com/";
+const rpcURL = "https://mainnet.smartpy.io";
 const wallet = new BeaconWallet(options);
 
 const getActiveAccount = async () => {
@@ -52,7 +52,7 @@ const checkIfWalletConnected = async (wallet) => {
 };
 
 export const changeName = async (name) => {
-  const amount = 2;
+  const amount = 10;
   // const wallet = new BeaconWallet(options);
   const response = await checkIfWalletConnected(wallet);
 
@@ -60,7 +60,7 @@ export const changeName = async (name) => {
     const tezos = new TezosToolkit(rpcURL);
     tezos.setWalletProvider(wallet);
     const contract = await tezos.wallet.at(config.contractAddress);
-    const operation = await contract.methods.mint(2).send({amount: amount, mutez: false});
+    const operation = await contract.methods.mint(1).send({amount: amount, mutez: false});
     const result = await operation.confirmation();
     console.log(result);
   }
