@@ -62,7 +62,7 @@ export default function Navbar() {
           href="#!"
           className="cursor-pointer text-gray-300 px-4 py-2 text-sm font-semibold rounded-sm hover:bg-gray-700 hover:text-gray-200"
         >
-          Provenance  Hash:
+          Provenance CID:
         </a>
       </div>
       <div>
