@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import ChangeName from "./components/ChangeName";
+import image from "./mint.png";
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
     <div className="container pt-10 mx-auto">
         <div className="flex justify-center">
         </div>
-        <div style={{backgroundImage:"url(https://www.mutantgeckogang.xyz/assets/mint.png)"}}>
+         <div style={{ backgroundImage:`url(${image})` }}>
           <ChangeName />
         </div>
       </div>
