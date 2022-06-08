@@ -31,26 +31,38 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-800 h-14 flex items-center px-10 justify-between">
       <div className="flex-1 space-x-4">
-        <a href="https://mutantgeckogang.xyz" className="font-bold text-white pr-10">
+        <a href="https://mutantgeckogang.xyz" target="_blank" className="font-bold text-white pr-10">
           MGG
         </a>
         <a
           href="#!"
           className="bg-black text-gray-200 px-4 py-2 text-sm font-semibold rounded-sm"
         >
-          Crowdsale
+          Mint Portal
         </a>
         <a
-          href="https://objkt.com/collection/mutantgeckogang"
+          href="https://objkt.com/collection/mutantgeckogang" target="_blank" 
           className="cursor-pointer text-gray-300 px-4 py-2 text-sm font-semibold rounded-sm hover:bg-gray-700 hover:text-gray-200"
         >
           On Objkt
         </a>
         <a
-          href="https://rarible.com/mutantgeckogang"
+          href="https://rarible.com/mutantgeckogang" target="_blank" 
           className="cursor-pointer text-gray-300 px-4 py-2 text-sm font-semibold rounded-sm hover:bg-gray-700 hover:text-gray-200"
         >
           On Rarible
+        </a>
+        <a
+          href="https://better-call.dev/mainnet/KT1Gxkok7KpNPanU9nGdwoYcwAQ8n2aTuV7M" target="_blank"
+          className="bg-black text-gray-200 px-4 py-2 text-sm font-semibold rounded-sm"
+        >
+          Crowdsale
+        </a>
+        <a
+          href="#!"
+          className="cursor-pointer text-gray-300 px-4 py-2 text-sm font-semibold rounded-sm hover:bg-gray-700 hover:text-gray-200"
+        >
+          Provenance  Hash:
         </a>
       </div>
       <div>
