@@ -54,9 +54,9 @@ export default function Navbar() {
         </a>
         <a
           href="https://better-call.dev/mainnet/KT1Gxkok7KpNPanU9nGdwoYcwAQ8n2aTuV7M" target="_blank"
-          className="cursor-pointer text-gray-200 px-4 py-2 text-sm font-semibold rounded-sm"
+          className="cursor-pointer text-gray-300 px-4 py-2 text-sm font-semibold rounded-sm hover:bg-gray-700 hover:text-gray-200"
         >
-          Crowdsale
+          Crowdsale Contract
         </a>
         <a
           href="#!"
