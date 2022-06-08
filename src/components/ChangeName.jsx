@@ -10,7 +10,7 @@ export default function ChangeName(props) {
         onClick={() => {
           changeName(name);
         }}
-        className="bg-green-600 px-0 py-0 rounded-sm text-md font-semibold uppercase text-white cursor-pointer"
+        className="bg-green-600 px-120 py-90 rounded-sm text-xl font-semibold uppercase text-white cursor-pointer"
       >
         MINT
       </button>
