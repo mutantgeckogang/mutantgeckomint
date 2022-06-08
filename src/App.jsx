@@ -10,7 +10,7 @@ const App = () => {
     <div className="container pt-10 mx-auto">
         <div className="flex justify-center">
         </div>
-        <div className="mt-20 flex justify-center">
+        <div className="mt-20 flex justify-center" style={{backgroundImage:"url(https://www.mutantgeckogang.xyz/assets/mint.png)"}}>
           <ChangeName />
         </div>
       </div>
