@@ -62,7 +62,7 @@ export default function Navbar() {
           href="#!"
           className="text-gray-300 px-4 py-2 text-sm font-semibold rounded-sm"
         >
-          Provenance CID:
+          Provenance CID: QmUQJQ2fYb8HEHni9mWnP2Tthb14hi6HEqmTR9ZLUfw8FA
         </a>
       </div>
       <div>
