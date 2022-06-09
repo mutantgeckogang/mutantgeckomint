@@ -12,9 +12,9 @@ const App = () => {
     <ChangeName />
         </div>
          <div className="mt-20 flex justify-center" >
-           <h2 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-300 to-green-500">
-            
-          </h2>
+           <h3 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-300 to-green-500">
+            3837/4444
+          </h3>
         </div>
       </div>
     </div>
