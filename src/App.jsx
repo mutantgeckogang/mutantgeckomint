@@ -9,8 +9,8 @@ const App = () => {
     <center><img src="https://mutantgeckogang.xyz/assets/IMG_4299.PNG" width="512" /></center>
     <div className="container pt-10 mx-auto">
         <div className="flex justify-center">
-    <ChangeName />
-    <h2 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-red-500 to-green-500">
+    <ChangeName /><br />
+    <h2 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-300 to-green-500">
             <br />3132 / 4444
           </h2>
         </div>
